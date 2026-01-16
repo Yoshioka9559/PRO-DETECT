@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environments
+mmvir/
+newenv/
+yoloenv/
+venv/
+env/
+ENV/
+
+# YOLO
+runs/
+*.pt
+!yolov8n.pt
+
+# Data directories (you may want to keep these or not)
+POC_augmented/
+POC_split/images/
+POC_split/labels/
+GMI Image/
+GM Image
+
+# Archives
+*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Flutter/Dart
+flutter_app/build/
+flutter_app/.dart_tool/
+flutter_app/.flutter-plugins
+flutter_app/.flutter-plugins-dependencies
+flutter_app/.packages
+flutter_app/pubspec.lock

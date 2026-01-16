@@ -1,0 +1,11 @@
+# POC Split Dataset for Product Detection
+path: C:\Users\G705767\OneDrive - General Mills\Documents\Yolo and MMdetection\POC_split
+train: train/images  # 260 training images
+val: val/images      # 112 validation images (truly unseen)
+
+# Classes
+nc: 3
+names:
+  0: Betty Crocker Pancake Mix
+  1: Haagen-Dazs IceCream Tub
+  2: Haagen-Dazs IceCream Bars
